@@ -3,6 +3,15 @@ projecto
 Francisco
 15 March 2018
 
+``` r
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+ggplot(cars, aes(speed, dist))+
+  geom_point()
+```
+
+![](project_treta_files/figure-markdown_github/setup-1.png)
+
 R Markdown
 ----------
 
